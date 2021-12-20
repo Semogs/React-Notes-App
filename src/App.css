@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 58vh;
+  border-radius: 10px;
+}
+.form {
+  margin-top: 15px;
+  box-shadow: 1px 1px 10px 5px #888888;
+  width: 50vw;
+  height: 53vh;
+  border-radius: 10px;
+}
+.add-button {
+  margin-top: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 36vw;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #888888;
+}
+textarea {
+  margin-top: 10px;
+  width: 35vw;
+  height: 30vh;
+  border-radius: 10px;
+  border: 2px solid #888888;
+  font-size: 1rem;
+}
+.inputTitle {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 35vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: 2px solid #888888;
+  font-size: 1rem;
+}
+.note-container {
+  display: inline-block;
+  margin-right: 30px;
+  box-shadow: 1px 1px 10px 5px #888888;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30vw;
+  margin-bottom: 15px;
+  background-color: lightgray;
+}
+.content-container {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 7px;
+}
+.notes-list {
+  height: 90vh;
+}
+.delete-button {
+  margin-left: 10px;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 2vw;
+}
+.note-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.note-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.note-text {
+  font-size: 1rem;
+}
+::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.date-info {
+  font-size: 0.6rem;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  text-align: center;
+  width: 50vw;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  box-shadow: 1px 1px 10px 5px #888888;
+  border-radius: 10px;
+  padding: 10px;
+}
+.modal-button {
+  border-radius: 6px;
+  border: solid darkslategray 2px;
+}
+.modal-text-input {
+  border-radius: 5px;
+  border: 2px solid #888888;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.modal-title-input {
+  border-radius: 5px;
+  border: 2px solid #888888;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
